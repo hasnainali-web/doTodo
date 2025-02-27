@@ -1,0 +1,1 @@
+text border-b p-2 w-full lg:w-4/5 xl:w-[82%]

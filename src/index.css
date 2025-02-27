@@ -1,0 +1,18 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body {
+    background: #212832;
+}
+.btnstyles{
+    @apply bg-[#FED36A] hover:bg-[#FED36Ae7] text-black h-full py-2 px-7 rounded-[6px] transition-all font-semibold text-sm md:text-base;
+}
+.text {
+    overflow-wrap: anywhere;
+}
